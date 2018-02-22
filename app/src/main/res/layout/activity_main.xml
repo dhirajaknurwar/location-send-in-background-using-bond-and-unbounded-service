@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.master.locationsendsinbackground.MainActivity">
+
+    <Button
+        android:id="@+id/bindService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/bind_service"
+        android:textColor="@android:color/holo_green_dark" />
+
+
+    <Button
+        android:id="@+id/unBindService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bindService"
+        android:layout_centerInParent="true"
+        android:text="@string/un_bind_service"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <Button
+        android:id="@+id/sendLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unBindService"
+        android:layout_centerInParent="true"
+        android:text="@string/start_send_location"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <Button
+        android:id="@+id/stopLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sendLocation"
+        android:layout_centerInParent="true"
+        android:text="@string/stop_send_location"
+        android:textColor="@android:color/holo_green_dark" />
+
+</RelativeLayout>

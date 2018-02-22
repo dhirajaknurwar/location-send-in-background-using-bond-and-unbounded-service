@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Location Sends In Background</string>
+    <string name="start_send_location">Start Send Location</string>
+    <string name="stop_send_location">Stop Send Location</string>
+    <string name="bind_service">Bind Service</string>
+    <string name="un_bind_service">Un Bind Service</string>
+    <string name="location">LOCATION PERMISSION</string>
+    <string name="location_desc">Location permission needed to get your current location.</string>
+</resources>
